@@ -1,4 +1,3 @@
-/* eslint-disable */
 require('dotenv').config();
 
 module.exports = {
@@ -8,7 +7,7 @@ module.exports = {
     database: 'DB_NAME',
     host: 'DB_HOST',
     dialect: 'postgres',
-    operatorsAliases: false
+    operatorsAliases: false,
   },
   test: {
     username: 'root',
@@ -16,9 +15,9 @@ module.exports = {
     database: 'database_test',
     host: '127.0.0.1',
     dialect: 'postgres',
-    operatorsAliases: false
+    operatorsAliases: false,
   },
   production: {
-    use_env_variable: 'DATABASE_URL'
-  }
+    use_env_variable: 'DATABASE_URL',
+  },
 };

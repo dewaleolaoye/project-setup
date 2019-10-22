@@ -1,4 +1,3 @@
-'use strict';
 /* eslint-disable */
 
 const fs = require('fs');
